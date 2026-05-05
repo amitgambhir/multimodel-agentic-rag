@@ -1,0 +1,13 @@
+.env
+.env.local
+.venv/
+__pycache__/
+*.pyc
+data/chroma/
+node_modules/
+dist/
+frontend/src/**/*.js
+frontend/tsconfig.tsbuildinfo
+.DS_Store
+*.log
+*CLAUDE.md*
