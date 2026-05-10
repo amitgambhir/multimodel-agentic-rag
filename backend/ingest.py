@@ -48,7 +48,7 @@ async def fetch_url_text(url: str) -> tuple[str, Optional[str]]:
         current = url
         seen: set[str] = set()
         for _ in range(_MAX_REDIRECTS + 1):
-            r = await client.get(current, headers={"User-Agent": "multimodel-rag/0.1"})
+            r = await client.get(current, headers={"User-Agent": "multimodal-rag/0.1"})
             if r.status_code in (301, 302, 303, 307, 308):
                 loc = r.headers.get("location")
                 if not loc:

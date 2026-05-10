@@ -445,7 +445,7 @@ Set `OPENAI_EMBED_MODEL=text-embedding-3-large` in `.env`. **Wipe `data/chroma/`
 ## Project Structure
 
 ```text
-multimodel-agentic-rag/
+multimodal-agentic-rag/
 │
 ├── .env.example                   # Template for all config vars
 ├── README.md
